@@ -1,0 +1,557 @@
+developer@developer:~/Documentos/Ricardo$ ls
+README.md  sintaxeBasica.py
+developer@developer:~/Documentos/Ricardo$ cd ..
+developer@developer:~/Documentos$ ls
+520  blog.mwb  Ricardo
+developer@developer:~/Documentos$ cd 520
+developer@developer:~/Documentos/520$ cd -
+/home/developer/Documentos
+developer@developer:~/Documentos$ cd ricardo
+bash: cd: ricardo: Arquivo ou diretório inexistente
+developer@developer:~/Documentos$ cd Rricardo
+bash: cd: Rricardo: Arquivo ou diretório inexistente
+developer@developer:~/Documentos$ cd Ricardo
+developer@developer:~/Documentos/Ricardo$ ls
+README.md  sintaxeBasica.py
+developer@developer:~/Documentos/Ricardo$ ls
+aula1  README.md
+developer@developer:~/Documentos/Ricardo$ cd aula1
+developer@developer:~/Documentos/Ricardo/aula1$ file sintaxeBasica.py
+sintaxeBasica.py: empty
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+hello world
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+hello world
+seja bem vindo
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+hello world
+Digite seu nome:Ricardo
+seja bem vindo
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+hello world
+Digite seu nome: Ricardo
+seja bem vindo
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo Seja Bem Vindo
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+  File "sintaxeBasica.py", line 6
+    print (input'Digite sua idade: ') , 'Sua idade é 43')
+                                   ^
+SyntaxError: invalid syntax
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo Seja Bem Vindo
+Digite sua idade: 43
+43 Sua idade é 43
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo Seja Bem Vindo
+Digite sua idade: 43
+43 idade
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo Seja Bem Vindo
+Digite sua idade: 43
+43  de idade
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo Seja Bem Vindo
+Digite sua idade: 43
+43  anos de idade
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py]
+python3: can't open file 'sintaxeBasica.py]': [Errno 2] No such file or directory
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo Seja Bem Vindo
+Digite sua idade: 43
+43 anos de idade
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo
+Seu nome é Ricardo
+Seu nome é Ricardo
+Seu nome é Ricardo
+Digite sua idade: 43
+Sua idade é 43 anos
+developer@developer:~/Documentos/Ricardo/aula1$ 
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+  File "sintaxeBasica.py", line 27
+    print('Seu nome é ', nome , 'e sua idade é ' idade 'anos')
+                                                     ^
+SyntaxError: invalid syntax
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo
+Seu nome é Ricardo
+Seu nome é Ricardo
+Seu nome é Ricardo
+Digite sua idade: 43
+Sua idade é 43 anos
+Seu nome é  Ricardo e sua idade é  43 anos
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo
+Seu nome é Ricardo
+Digite sua idade: 43
+Sua idade é 43 anos
+Seu nome é  Ricardo e sua idade é  43 anos
+developer@developer:~/Documentos/Ricardo/aula1$ python3
+Python 3.6.7 (default, Oct 22 2018, 11:32:17) 
+[GCC 8.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+>>> 
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo
+Seu nome é Ricardo
+Digite sua idade: 43
+Sua idade é 43 anos
+Ricardo.43
+
+developer@developer:~/Documentos/Ricardo/aula1$ 
+
+developer@developer:~/Documentos/Ricardo$ ls
+README.md  sintaxeBasica.py
+developer@developer:~/Documentos/Ricardo$ cd ..
+developer@developer:~/Documentos$ ls
+520  blog.mwb  Ricardo
+developer@developer:~/Documentos$ cd 520
+developer@developer:~/Documentos/520$ cd -
+/home/developer/Documentos
+developer@developer:~/Documentos$ cd ricardo
+bash: cd: ricardo: Arquivo ou diretório inexistente
+developer@developer:~/Documentos$ cd Rricardo
+bash: cd: Rricardo: Arquivo ou diretório inexistente
+developer@developer:~/Documentos$ cd Ricardo
+developer@developer:~/Documentos/Ricardo$ ls
+README.md  sintaxeBasica.py
+developer@developer:~/Documentos/Ricardo$ ls
+aula1  README.md
+developer@developer:~/Documentos/Ricardo$ cd aula1
+developer@developer:~/Documentos/Ricardo/aula1$ file sintaxeBasica.py
+sintaxeBasica.py: empty
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+hello world
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+hello world
+seja bem vindo
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+hello world
+Digite seu nome:Ricardo
+seja bem vindo
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+hello world
+Digite seu nome: Ricardo
+seja bem vindo
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo Seja Bem Vindo
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+  File "sintaxeBasica.py", line 6
+    print (input'Digite sua idade: ') , 'Sua idade é 43')
+                                   ^
+SyntaxError: invalid syntax
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo Seja Bem Vindo
+Digite sua idade: 43
+43 Sua idade é 43
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo Seja Bem Vindo
+Digite sua idade: 43
+43 idade
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo Seja Bem Vindo
+Digite sua idade: 43
+43  de idade
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo Seja Bem Vindo
+Digite sua idade: 43
+43  anos de idade
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py]
+python3: can't open file 'sintaxeBasica.py]': [Errno 2] No such file or directory
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo Seja Bem Vindo
+Digite sua idade: 43
+43 anos de idade
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo
+Seu nome é Ricardo
+Seu nome é Ricardo
+Seu nome é Ricardo
+Digite sua idade: 43
+Sua idade é 43 anos
+developer@developer:~/Documentos/Ricardo/aula1$ 
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+  File "sintaxeBasica.py", line 27
+    print('Seu nome é ', nome , 'e sua idade é ' idade 'anos')
+                                                     ^
+SyntaxError: invalid syntax
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo
+Seu nome é Ricardo
+Seu nome é Ricardo
+Seu nome é Ricardo
+Digite sua idade: 43
+Sua idade é 43 anos
+Seu nome é  Ricardo e sua idade é  43 anos
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo
+Seu nome é Ricardo
+Digite sua idade: 43
+Sua idade é 43 anos
+Seu nome é  Ricardo e sua idade é  43 anos
+developer@developer:~/Documentos/Ricardo/aula1$ python3
+Python 3.6.7 (default, Oct 22 2018, 11:32:17) 
+[GCC 8.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+>>> 
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo
+Seu nome é Ricardo
+Digite sua idade: 43
+Sua idade é 43 anos
+Ricardo.43
+
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Hello World
+Digite seu nome: Ricardo
+Ricardo
+Seu nome é Ricardo
+Digite sua idade: 43
+Sua idade é 43 anos
+Ricardo.43
+
+<class 'str'>
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Digite seu nome: ricardo
+ricardo
+Seu nome é ricardo
+Digite sua idade: 43
+Sua idade é 43 anos
+ricardo.43
+
+<built-in method upper of str object at 0x7f6f026eda78>
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Digite seu nome: ric
+ric
+Seu nome é ric
+Digite sua idade: 1
+Sua idade é 1 anos
+ric.1
+
+4LINUX
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Digite seu nome: Ric
+Ric
+Seu nome é Ric
+Digite sua idade: 1
+Sua idade é 1 anos
+Ric.1
+
+Digite um E-mail: ric@4linux.com.br
+ric@4linux.com.br
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Digite sua idade: 1
+Sua idade é 1 anos
+Traceback (most recent call last):
+  File "sintaxeBasica.py", line 31, in <module>
+    print(nome,idade,sep='.',end='\n\n')
+NameError: name 'nome' is not defined
+developer@developer:~/Documentos/Ricardo/aula1$ 
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Digite um E-mail: ric@4linix.com
+ric@4linix.com
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Digite um E-mail: Ric@4linux. com       
+ric@4linux. com
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Digite um E-mail:     ric@4linux.com
+ric@4linux.com
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+Digite um E-mail:      ric@4linux.com
+ric@4linux.com
+Digite seu nomeRicardo
+Seja bem vindo Ricardo
+developer@developer:~/Documentos/Ricardo/aula1$ python3 sintaxeBasica.py
+True
+developer@developer:~/Documentos/Ricardo/aula1$ vim sintaxeBasica.py
+developer@developer:~/Documentos/Ricardo/aula1$ vim sintaxeBasica.py
+developer@developer:~/Documentos/Ricardo/aula1$ mv listasTuplasDicionario.py listasTuplasDicionarios
+developer@developer:~/Documentos/Ricardo/aula1$ ls
+aula1.txt  listasTuplasDicionario.py  listasTuplasDicionarios  sintaxeBasica.py
+developer@developer:~/Documentos/Ricardo/aula1$ chmod +x listasTuplasDicionarios
+developer@developer:~/Documentos/Ricardo/aula1$ listasTuplasDicionarios
+listasTuplasDicionarios: comando não encontrado
+developer@developer:~/Documentos/Ricardo/aula1$ ls
+aula1.txt  listasTuplasDicionario.py  listasTuplasDicionarios  sintaxeBasica.py
+developer@developer:~/Documentos/Ricardo/aula1$ listasTuplasDicionarios
+listasTuplasDicionarios: comando não encontrado
+developer@developer:~/Documentos/Ricardo/aula1$ ./listasTuplasDicionarios 
+bash: ./listasTuplasDicionarios: usr/bin/pyton3: interpretador incorreto: Arquivo ou diretório inexistente
+developer@developer:~/Documentos/Ricardo/aula1$ ./listasTuplasDicionarios
+developer@developer:~/Documentos/Ricardo/aula1$ 
+developer@developer:~/Documentos/Ricardo/aula1$ ./listasTuplasDicionarios
+oi
+developer@developer:~/Documentos/Ricardo/aula1$ pyton3 listasTuplasDicionarios.py
+
+Command 'pyton3' not found, did you mean:
+
+  command 'pytone' from deb pytone
+  command 'python3' from deb python3-minimal
+
+Try: sudo apt install <deb name>
+
+developer@developer:~/Documentos/Ricardo/aula1$ python3 listasTuplasDicionarios.py
+python3: can't open file 'listasTuplasDicionarios.py': [Errno 2] No such file or directory
+developer@developer:~/Documentos/Ricardo/aula1$ python3 listasTuplasDicionarios.py
+python3: can't open file 'listasTuplasDicionarios.py': [Errno 2] No such file or directory
+developer@developer:~/Documentos/Ricardo/aula1$ python3 listasTuplasDicionarios.py
+python3: can't open file 'listasTuplasDicionarios.py': [Errno 2] No such file or directory
+developer@developer:~/Documentos/Ricardo/aula1$ python3 listasTuplasDicionarios.py
+python3: can't open file 'listasTuplasDicionarios.py': [Errno 2] No such file or directory
+developer@developer:~/Documentos/Ricardo/aula1$ python3 listasTuplasDicionarios.py
+python3: can't open file 'listasTuplasDicionarios.py': [Errno 2] No such file or directory
+developer@developer:~/Documentos/Ricardo/aula1$ python3 listasTuplasDicionarios.py
+python3: can't open file 'listasTuplasDicionarios.py': [Errno 2] No such file or directory
+developer@developer:~/Documentos/Ricardo/aula1$ 
+developer@developer:~/Documentos/Ricardo/aula1$ python3 listasTuplasDicionarios.py
+python3: can't open file 'listasTuplasDicionarios.py': [Errno 2] No such file or directory
+developer@developer:~/Documentos/Ricardo/aula1$ python3 listasTuplasDicionarios.py
+python3: can't open file 'listasTuplasDicionarios.py': [Errno 2] No such file or directory
+developer@developer:~/Documentos/Ricardo/aula1$ python3 listasTuplasDicionarios.py
+python3: can't open file 'listasTuplasDicionarios.py': [Errno 2] No such file or directory
+developer@developer:~/Documentos/Ricardo/aula1$ python3 listasTuplasDicionario.py
+['Arroz', 'Feijão', 'Óleo', 'Sal', 'Sabão em pó', 'Açucar', 'Temperos', 'Cerveja', 'Carne']
+['Óleo', 'Temperos', 'Sal', 'Sabão em pó', 'Feijão', 'Cerveja', 'Carne', 'Açucar', 'Arroz']
+9
+developer@developer:~/Documentos/Ricardo/aula1$ 
+developer@developer:~/Documentos/Ricardo/aula1$ python3 listasTuplasDicionario.py
+['Arroz', 'Feijão', 'Óleo', 'Sal', 'Sabão em pó', 'Açucar', 'Temperos', 'Cerveja', 'Carne']
+['Óleo', 'Temperos', 'Sal', 'Sabão em pó', 'Feijão', 'Cerveja', 'Carne', 'Açucar', 'Arroz']
+9
+7
+developer@developer:~/Documentos/Ricardo/aula1$ python3 listasTuplasDicionario.py
+['Arroz', 'Feijão', 'Óleo', 'Sal', 'Sabão em pó', 'Açucar', 'Temperos', 'Cerveja', 'Carne']
+['Óleo', 'Temperos', 'Sal', 'Sabão em pó', 'Feijão', 'Cerveja', 'Carne', 'Açucar', 'Arroz']
+9
+7
+1
+developer@developer:~/Documentos/Ricardo/aula1$ 
+
+
+#!/usr/bin/python3
+
+# #contagem de lista começa sempre do 0
+# lista = ['Arroz','Feijão','Óleo','Sal','Açucar','Temperos','Cerveja']
+# #           0       1       2       3       4       5
+# #vetores multidimensionais 
+# lista3d = [
+#     [ 2 , 3 , 4 , 5 ],
+#     [ 3 , 4 , 5 , 6 ],
+#     [ 7 , 5 , 7 , 8],
+# ]
+# #add un item no final da lista
+# lista.append('Carne')
+# #adicionar un item no determinado indice da lista (caso contrario indice 0)
+# lista.insert(4,'Sabão em pó')
+
+# print(lista)
+# #remove o o elemento pelo id
+# # lista.pop(4)
+
+# #ordena a lista em, ordem alfabetica/ numerica
+# lista.sort()
+
+# #reverte a ordem da lista
+# lista.reverse()
+
+# #mostra quantidade de elementos
+# print(lista)
+
+# #mostra qtdade de elementos 
+# print(len(lista))
+
+# #procura o primeiro indice da ocorrencia
+# print(lista.index('Açucar'))
+
+# #conta qtde de indices x no array
+# print(lista.count('Arroz'))
+
+# #conta qtde de indices da ocorrencia com o seguinte valor
+# #lista.remove('Sabao em pó')
+# print(lista)
+
+# lista[3] = 'Maça'
+# print (lista)
+
+############
+### tupla###
+############
+
+#primeiro metodo para criar tuplas
+tupla = ('maça','banana','laranja','abacaxi','uva',
+             'melao','melancia','limao','morango',
+             'lichia','mixirica','manga')
+
+#seghhundo metodo para criar tuplas
+tupla2 = 'valor1' , 2, True, 2j
+print(type(tupla2))
+
+#acessando indices de uma tupla
+print(tupla[3])
+print(tupla[1:4])
+print(tupla[-2])
+
+#converter tupla para lista
+lista_da_tupla = list(tupla)
+print(type(lista_da_tupla))
+
+print(tupla)
+
+
+
+#!/usr/bin/python3
+
+# #contagem de lista começa sempre do 0
+# lista = ['Arroz','Feijão','Óleo','Sal','Açucar','Temperos','Cerveja']
+# #           0       1       2       3       4       5
+# #vetores multidimensionais 
+# lista3d = [
+#     [ 2 , 3 , 4 , 5 ],
+#     [ 3 , 4 , 5 , 6 ],
+#     [ 7 , 5 , 7 , 8],
+# ]
+# #add un item no final da lista
+# lista.append('Carne')
+# #adicionar un item no determinado indice da lista (caso contrario indice 0)
+# lista.insert(4,'Sabão em pó')
+
+# print(lista)
+# #remove o o elemento pelo id
+# # lista.pop(4)
+
+# #ordena a lista em, ordem alfabetica/ numerica
+# lista.sort()
+
+# #reverte a ordem da lista
+# lista.reverse()
+
+# #mostra quantidade de elementos
+# print(lista)
+
+# #mostra qtdade de elementos 
+# print(len(lista))
+
+# #procura o primeiro indice da ocorrencia
+# print(lista.index('Açucar'))
+
+# #conta qtde de indices x no array
+# print(lista.count('Arroz'))
+
+# #conta qtde de indices da ocorrencia com o seguinte valor
+# #lista.remove('Sabao em pó')
+# print(lista)
+
+# lista[3] = 'Maça'
+# print (lista)
+
+############
+### tupla###
+############
+
+#primeiro metodo para criar tuplas
+tupla = ('maça','banana','laranja','abacaxi','uva',
+             'melao','melancia','limao','morango',
+             'lichia','mixirica','manga')
+
+#seghhundo metodo para criar tuplas
+tupla2 = 'valor1' , 2, True, 2j
+print(type(tupla2))
+
+#acessando indices de uma tupla
+print(tupla[3])
+print(tupla[1:4])
+print(tupla[-2])
+
+#converter tupla para lista
+lista_da_tupla = list(tupla)
+print(type(lista_da_tupla))
+
+print(tupla)
+
