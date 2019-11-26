@@ -1,3 +1,7 @@
+############
+#25/11/2019#
+############
+
 #!/usr/bin/python3
 
 # #contagem de lista começa sempre do 0
@@ -111,8 +115,6 @@
 # print(valores.itens())
 
 
-letras = 'abcdefghjkil' + 'fgndsandnfakjfkjasfiuaehfi'
-print
-(float(input('Digite um numero: ')) + int(input("digite outro numero: ")))
-
-
+# letras = 'abcdefghjkil' + 'fgndsandnfakjfkjasfiuaehfi'
+# print
+# (float(input('Digite um numero: ')) + int(input("digite outro numero: ")))
