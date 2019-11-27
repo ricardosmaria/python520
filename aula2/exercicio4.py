@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 
 ###########################
-#### Exercicio de exceções
+#### Exercicio de excecoes
 ###########################
 
-# Criar uma tela de cadastro de um usuário em uma lista
+# Criar uma tela de cadastro de um usuario em uma lista
 # Essa tela não pode aceitar figuras públicas que geram polêmica
 # ex = Bolsonaro, Lula, Adolf Hitler, Frota
-# Esse loop é infinito, onde só acaba quando colocado uma figura pública
+# Esse loop é infinito, onde só acaba quando colocado uma figura publica
 
 #!/usr/bin/python3
 
@@ -98,8 +98,8 @@ try:
             print('\n')
         else:
             print('\n'*100)
-            with open('nomes.txt','a') as nome:
-                nome.write(nome + '\n')
+            with open('nomes.txt','a') as nome_arquivo:
+                nome_arquivo.write(nome + '\n')
             print('Cadastro Realizado')
             #lista_nomes.append(nome)
 
