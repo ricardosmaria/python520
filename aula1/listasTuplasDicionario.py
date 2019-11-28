@@ -56,7 +56,7 @@
 #              'melao','melancia','limao','morango',
 #              'lichia','mixirica','manga')
 
-# #seghhundo metodo para criar tuplas
+# #segundo metodo para criar tuplas
 # tupla2 = 'valor1' , 2, True, 2j
 # print(type(tupla2))
 
