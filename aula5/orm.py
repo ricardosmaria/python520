@@ -26,12 +26,14 @@ class Banco():
         print('Atualizado com sucesso!')
 
     def delete(self, tabela, coluna, valor):
-        self.cursor.execute(f"DELETE FROM {tabela} WHERE {coluna} = {valor}")   
+        self.cursor.execute(f"DELETE FROM {tabela} WHERE {coluna} = '{valor}'")   
         self.conexao.commit()
         print('Deletado com sucesso!')
 
-    def seleciona_todos(self):
+    def seleciona_todos(self, tabela):
+        self.cursor.execute(f"SELECT * FROM {tabela}")
         return self.cursor.fetchall()
 
-    def seleciona_primeiro(self):
+    def seleciona_primeiro(self, tabela):
+        self.cursor.execute(f"SELECT * FROM {tabela}")
         return self.cursor.fetchone()
