@@ -27,3 +27,17 @@
 
 
 # trabalhar com mongo
+
+import pymongo
+import threadind
+
+if __name__=="__main__":
+    usuario = input('Digite um apelido: ')
+    try:
+        paralelo = threading.Thread(target=chat.lerMensagens)  ##metodo a definir
+        paralelo.start
+    except Exception as e:
+        print(e)
+
+    while paralelo.isAline:
+        chat.cadastrar(usuario, mensagem)
