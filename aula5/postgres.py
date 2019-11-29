@@ -2,18 +2,19 @@
 
 import psycopg2
 
+from orm import Banco
+
 try:
     con = psycopg2.connect('host=localhost dbname=projeto user=admin password=4linux')
+    cur = con.cursor()
+
+    banco = Banco(cur,con)
 except Exception as e:
-    print (e)
-    exit()
-cur = con.cursor()
-try:
-    cur.execute("INSERT into scripts(nome,conteudo) values ('Josivaldo','programador')")
-    con.commit()
-except Exception as e:
-    con.rollback()
     print(e)
-finally:
-    cur.close()
-    con.close()
+    exit()
+
+try:
+    banco.inserir('Daniel','Programador Python')
+except Exception as e:
+    cur.rollback()
+    print(e)
